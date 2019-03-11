@@ -1,0 +1,37 @@
+
+/* Pagination */
+
+@media all and (max-width:599px) {
+    .swiper-pagination-bullet {
+      width:1rem;
+      height:1rem;    
+    }
+}
+@media all and (min-width:600px) and (max-width:759px) {
+    .swiper-pagination-bullet {
+      width:.8rem;
+      height:.8rem;    
+    }
+}
+@media all and (min-width:760px){
+    .swiper-pagination-bullet {
+      width:.7rem;
+      height:.7rem;    
+    }
+}
+
+.swiper-pagination-bullet-active:nth-of-type(1) {
+  opacity:1;
+  background:#111;
+  border:1px solid #666;
+}
+
+.swiper-pagination-bullet-active:nth-of-type(2) {
+  opacity:1;
+  background:#eee;
+  border:1px solid #aaa;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 .6rem;
+}
